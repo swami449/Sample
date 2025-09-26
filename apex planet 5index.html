@@ -1,0 +1,29 @@
+<html>
+<head>
+  <title>Mini E-Commerce</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Mini E-Commerce</h1>
+    <input type="text" id="search" placeholder="Search products...">
+    <div id="cart-count">Cart: 0</div>
+  </header>
+
+  <main>
+    <div id="filters">
+      <label>Sort by:
+        <select id="sort">
+          <option value="default">Default</option>
+          <option value="price">Price</option>
+          <option value="rating">Rating</option>
+        </select>
+      </label>
+    </div>
+    <div id="products"></div>
+  </main>
+
+  <script src="products.js"></script>
+  <script src="script.js" defer></script>
+</body>
+</html>
